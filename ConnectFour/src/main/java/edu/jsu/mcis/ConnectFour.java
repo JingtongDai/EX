@@ -23,7 +23,7 @@ public class ConnectFour {
     }
     
     public int getHeightOfColumn(int col) {
-        return -1;
+        return 0;
     }
     
     public boolean dropTokenInColumn(int col) {
@@ -40,6 +40,7 @@ public class ConnectFour {
     private boolean doesRedWinVerticallyInColumn(int col) {
         String columnString = makeStringFromColumn(col);
         return (columnString.indexOf("RRRR") >= 0);
+		   
     }
     
     private String makeStringFromColumn(int col) {

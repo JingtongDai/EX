@@ -14,7 +14,9 @@ public class ConnectFourTest {
         for(int column = 0; column < ConnectFour.COLUMNS; column++) {
             assertEquals(ConnectFour.Token.EMPTY, game.getTopOfColumn(column));
             assertEquals(0, game.getHeightOfColumn(column));
+			
         }
+		
     }
 
     // Exam Question 2
